@@ -1,0 +1,16 @@
+[workspace.package]
+edition = "2021"
+author = "meltedsoysource"
+description = "library to implement echo state network"
+
+[workspace]
+resolver = "2"
+members = [
+    "model"
+]
+
+[workspace.dependencies]
+ndarray = "0.15.0"
+ndarray-linalg = { version = "0.16.0", features = ["openblas-static"] }
+ndarray-stats = "0.5.1"
+ndarray-rand = "0.14.0"
