@@ -1,0 +1,12 @@
+[package]
+name = "model"
+version = "0.1.0"
+edition.workspace = true
+author.workspace = true
+description.workspace = true
+
+[dependencies]
+ndarray = { workspace = true }
+ndarray-linalg = { workspace = true }
+ndarray-stats = { workspace = true }
+ndarray-rand = { workspace = true }
