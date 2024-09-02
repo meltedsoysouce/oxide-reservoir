@@ -7,10 +7,10 @@ description = "library to implement echo state network"
 resolver = "2"
 members = [
     "model"
-]
+, "models"]
 
 [workspace.dependencies]
-ndarray = "0.15.0"
-ndarray-linalg = { version = "0.16.0", features = ["openblas-static"] }
-ndarray-stats = "0.5.1"
-ndarray-rand = "0.14.0"
+ndarray = "0.16.1"
+ndarray-linalg = { version = "0.16.0", features = ["openblas-system"] }
+ndarray-stats = "0.6.0"
+ndarray-rand = "0.15.0"
